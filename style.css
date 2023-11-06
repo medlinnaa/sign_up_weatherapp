@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cce3ff;
+}
+
+header {
+    background-color: #130e22;
+  }
+  header .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    margin-bottom: 3rem;
+  }
+  header img {
+    width: 9%;
+  }
+  header .nav-links {
+    margin-right: 42rem;
+    margin-top: 2.6rem;
+    width: 80%;
+  }
+  header .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 0.5rem;
+  }
+  header .nav-links a:hover {
+    color: #c2bfbf;
+    transition: 0.5s;
+  }
+  header .btn-group {
+    margin-top: 0rem;
+    width: 80%;
+    display: flex;
+  }
+  header .btn-group button {
+    width: 45%;
+    height: 45px;
+    font-size: 14px;
+    border: none;
+    margin-right: 15px;
+  }
+  header .btn-group button a{
+    text-decoration: none;
+    color: #080710;
+  }
+  header .btn-group button:hover {
+    cursor: pointer;
+    background-color: #cac6c6;
+  }
+
+form {
+    height: 520px;
+    width: 520px;
+    background-color: rgba(255, 255, 255, 0.329);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px rgba(100, 98, 114, 0.6);
+    padding: 40px 35px;
+    margin: 2rem auto 2rem auto;
+}
+
+form * {
+    font-family: 'Poppins', sans-serif;
+    color: #080710;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+form h3 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(89, 88, 88, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.password-sctin{
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-sctin input{
+    width: 45%;
+    height: 50px;
+}
+
+::placeholder {
+    color: #696767;
+}
+
+button {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.lgn-btn{
+    margin-top: 15px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lgn-btn a{
+    text-decoration: none;
+    color: #080710;
+}
+
+span{
+    color: #080710;
+    margin-left: 120px;
+}
